@@ -1,0 +1,45 @@
+.body {
+    width: 100%;
+    height: 100vh;
+    background: #403A3E;
+}
+.div-b {
+    padding-top: 4rem;
+}
+
+.text {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    text-align: right;
+    color: #ffffff;
+}
+.form-group {
+    width: 90%;
+    height: 90%;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.form-control {
+    padding: 1rem;
+    margin: 1;
+    text-align: right;
+}
+ .btn {
+     margin-top: 1rem;
+     margin-left: 51rem;
+     width: 30vw;
+ }
+
+ @media (max-width:900px) {
+    .btn {
+        margin-top: 1rem;
+        margin-left: 15rem;
+        width: 30vw;
+    }
+    .div-b {
+        padding-top: 5rem;
+    }
+   
+ }
